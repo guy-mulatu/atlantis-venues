@@ -6,14 +6,14 @@ export const serviceCategories: ServiceCategory[] = [
     title: 'Funerailles',
     route: '/funerailles',
     backgroundImage: '/images/background/funerals-bg.png',
-    description: 'Compassionate and dignified funeral services to honor your loved ones'
+    description: 'Services funeraire pleins de compassion et de dignites pour honorer vots proches'
   },
   {
     id: 'celebrations',
     title: 'Celebrations',
     route: '/celebrations',
     backgroundImage: '/images/background/celebration-bg.png',
-    description: 'Mémorable célebrations for life\'s special moments'
+    description: 'Célebrations mémorable pour des instants de vie'
   },
   {
     id: 'corporate',

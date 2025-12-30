@@ -1,48 +1,31 @@
 <template>
   <ServiceDetail
-    title="Spiritual Events"
-    subtitle="Creating sacred spaces for meaningful gatherings"
+    title="Religieux"
+    subtitle="Créer des espaces sacrés pour des rassemblements porteurs de sens"
     background-image="/images/background/religious-bg.png"
   >
     <div class="content">
       <section class="section">
         <h2 class="heading">Honor Your Spiritual Journey</h2>
         <p class="text">
-          Spiritual ceremonies and gatherings hold deep significance, marking important 
-          transitions and celebrations in our lives. We approach each spiritual event 
-          with reverence and sensitivity, honoring diverse traditions and beliefs.
+          Les cérémonies et rassemblements spirituels ont une profonde signification, marquant des transitions et des célébrations importantes dans nos vies. 
+          Nous abordons chaque événement spirituel avec respect et sensibilité, en honorant la diversité des traditions et des croyances.
         </p>
         <p class="text">
-          Whether you're planning a religious ceremony, meditation retreat, or interfaith 
-          gathering, we create spaces that foster connection, reflection, and spiritual growth.
+          Les événements à caractère religieux que nous accueillons ont pour seul objectif de permettre aux personnes partageant une même foi de se rassembler et de celebrer ensemble. 
+          Aucun rituel n'est autorisé. Merci de votre compréhension.
         </p>
       </section>
 
       <section class="section">
-        <h2 class="heading">Spiritual Event Services</h2>
+        <h2 class="heading">Nos Services Comprennent</h2>
         <ul class="list">
           <li class="list-item">Capacité de 300 personnes assises</li>
-          <li class="list-item">Religious ceremonies and rituals</li>
-          <li class="list-item">Baptisms and christenings</li>
-          <li class="list-item">Bar/Bat Mitzvahs</li>
-          <li class="list-item">Confirmation ceremonies</li>
-          <li class="list-item">Meditation and yoga retreats</li>
-          <li class="list-item">Interfaith gatherings</li>
-          <li class="list-item">Prayer vigils and services</li>
-          <li class="list-item">Spiritual workshops and seminars</li>
-          <li class="list-item">Sacred space design and setup</li>
-          <li class="list-item">Coordination with religious leaders</li>
+          <li class="list-item">Baptemes</li>
+          <li class="list-item">Ceremonies de confirmation</li>
+          <li class="list-item">Meditation ou retraites spirituelles</li>
+          <li class="list-item">Seminaires religieux</li>
         </ul>
-      </section>
-
-      <section class="section">
-        <h2 class="heading">Respectful & Mindful Planning</h2>
-        <p class="text">
-          We work closely with you and your spiritual advisors to ensure every element 
-          of your ceremony aligns with your traditions and values. Our team respects the 
-          sacred nature of these events and handles every detail with care and cultural 
-          sensitivity.
-        </p>
       </section>
     </div>
   </ServiceDetail>

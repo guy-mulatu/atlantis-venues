@@ -30,14 +30,44 @@
         </div>
       </div>
     </section>
+
+    <section class="gallery-preview">
+      <div class="gallery-preview__container">
+        <h2>Découvrez nos espaces</h2>
+        <p>Explorez notre galerie d'événements et de salles</p>
+        <router-link to="/a-propos#gallery" class="gallery-preview__cta">
+          Voir la galerie
+        </router-link>
+      </div>
+    </section>
+
   </div>
 </template>
 
 <script setup lang="ts">
-import { serviceCategories } from '@/composables/useServices'
-import ServiceCard from '@/components/features/ServiceCard.vue'
+import { serviceCategories } from '@/composables/useServices';
+import ServiceCard from '@/components/features/ServiceCard.vue';
+import { useHead } from '@unhead/vue';
 
 const services = serviceCategories
+
+useHead({
+  title: 'Atlantis Venue - Salles de Fêtes à Kinshasa | Événements & Célébrations',
+  meta: [
+    {
+      name: 'description',
+      content: 'Atlantis Venue, votre partenaire pour tous vos événements à Kinshasa : mariages, célébrations, funérailles, événements corporatifs. Salles modernes et professionnelles en RDC.'
+    },
+    {
+      property: 'og:title',
+      content: 'Atlantis Venue - Salles de Fêtes à Kinshasa'
+    },
+    {
+      property: 'og:description',
+      content: 'Salles de fêtes professionnelles pour tous vos événements à Kinshasa, RDC.'
+    }
+  ]
+})
 </script>
 
 <style scoped>
@@ -145,6 +175,63 @@ const services = serviceCategories
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
+}
+
+/* Gallery Preview Section */
+.gallery-preview {
+  background: linear-gradient(135deg, #667eea 0%, #1800AD 100%);
+  padding: 4rem 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.gallery-preview__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery-preview__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.gallery-preview__description {
+  font-size: 1.125rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.gallery-preview__cta {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: white;
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery-preview__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .gallery-preview {
+    padding: 5rem 1.5rem;
+  }
+  
+  .gallery-preview__heading {
+    font-size: 2.5rem;
+  }
+  
+  .gallery-preview__description {
+    font-size: 1.25rem;
+  }
 }
 
 /* Tablet */

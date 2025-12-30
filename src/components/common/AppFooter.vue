@@ -23,6 +23,7 @@
           <router-link to="/celebrations" class="footer__link">Celebrations</router-link>
           <router-link to="/corporate" class="footer__link">Corporate</router-link>
           <router-link to="/religieux" class="footer__link">Religieux</router-link>
+          <router-link to="/a-propos#gallery" class="footer__link">Galerie</router-link>
         </div>
       </div>
       

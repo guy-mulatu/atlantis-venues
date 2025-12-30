@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "EventVenue",
+  "name": "Atlantis Venue",
+  "description": "Salles de fêtes professionnelles pour célébrations, funérailles et événements corporatifs à Kinshasa",
+  "url": "https://atlantisvenue.com",
+  "logo": "https://atlantisvenue.com/images/logo/logo.png",
+  "telephone": "+243-83-65-32-416",
+  "email": "info@atlantisvenue.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Boulevard Lumumba N° 54 – 52",
+    "addressLocality": "Kinshasa",
+    "addressRegion": "Kinshasa",
+    "addressCountry": "CD"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "22:00"
+    }
+  ],
+  "sameAs": [
+    "https://facebook.com/atlantisvenue",
+    "https://instagram.com/atlantisvenue",
+    "https://youtube.com/@atlantisvenue"
+  ],
+  "priceRange": "$$"
+}

@@ -41,10 +41,46 @@
             <li class="about__list-item">Des solutions complètes de gestion d'événements</li>
           </ul>
         </div>
+
+        <!-- Add Gallery Section -->
+        <div class="about__section" id="gallery">
+          <h2 class="about__heading">Notre galerie</h2>
+          <p class="about__text">
+            Découvrez nos espaces et quelques moments mémorables capturés lors d'événements précédents.
+          </p>
+          <ImageGallery :images="galleryImages" />
+        </div>
       </div>
     </section>
   </div>
 </template>
+
+<script setup lang="ts">
+import ImageGallery from '@/components/features/ImageGallery.vue';
+import { useHead } from '@unhead/vue';
+
+const galleryImages = [
+  { src: '/images/gallery/trone_1.jpg', alt: 'Trone de mariage' },
+  { src: '/images/gallery/trone_2.jpg', alt: 'Célébration de mariage' },
+  { src: '/images/gallery/trone_3.jpg', alt: 'Trone de mariage' },
+  { src: '/images/gallery/trone_4.jpg', alt: 'Trone de mariage' },
+  { src: '/images/gallery/wedding_1.jpg', alt: 'Decoration de mariage' },
+  { src: '/images/gallery/wedding_2.jpg', alt: 'Decoration de mariage' },
+  { src: '/images/gallery/funeral_1.jpg', alt: 'Decoration de funerailles' },
+  { src: '/images/gallery/funeral_2.jpg', alt: 'Installation de funerailles' },
+  { src: '/images/gallery/large_1.jpg', alt: 'Installation de mariage' },
+];
+
+useHead({
+  title: 'À Propos - Atlantis Venue Kinshasa | Notre Histoire',
+  meta: [
+    {
+      name: 'description',
+      content: 'Découvrez Atlantis Venue, leader des salles de fêtes à Kinshasa depuis plus de 10 ans. Espaces adaptés pour célébrations, funérailles et événements corporatifs en RDC.'
+    }
+  ]
+});
+</script>
 
 <style scoped>
 .about {

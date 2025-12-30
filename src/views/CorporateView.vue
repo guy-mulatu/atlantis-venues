@@ -45,7 +45,23 @@
 </template>
 
 <script setup lang="ts">
-import ServiceDetail from '@/components/features/ServiceDetail.vue'
+import ServiceDetail from '@/components/features/ServiceDetail.vue';
+import { useHead } from '@unhead/vue';
+
+useHead({
+  title: 'Événements Corporatifs à Kinshasa - Atlantis Venue | Réunions & Conférences',
+  meta: [
+    {
+      name: 'description',
+      content: 'Salles pour événements corporatifs à Kinshasa : conférences, séminaires, formations, team building. Atlantis Venue, votre partenaire professionnel en RDC.'
+    },
+    {
+      name: 'keywords',
+      content: 'événements corporatifs Kinshasa, conférence Kinshasa, séminaire RDC, team building Congo, salle de réunion Kinshasa, formation entreprise'
+    }
+  ]
+})
+   
 </script>
 
 <style scoped>

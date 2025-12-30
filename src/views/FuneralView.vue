@@ -37,11 +37,37 @@
         </p>
       </section>
     </div>
+
+    <!-- Social Media CTA - YouTube only -->
+    <SocialMedia
+      :networks="['youtube']"
+      heading="Live"
+      description="Vous avez la possibilite de diffuser votre evenement en live via notre chaine youtube."
+      youtube-url="https://youtube.com/@atlantisvenue-funerals"
+    />
+
   </ServiceDetail>
 </template>
 
 <script setup lang="ts">
-import ServiceDetail from '@/components/features/ServiceDetail.vue'
+import ServiceDetail from '@/components/features/ServiceDetail.vue';
+import SocialMedia from '@/components/common/SocialMedia.vue';
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Services Funéraires à Kinshasa - Atlantis Venue | Funérailles Dignes',
+  meta: [
+    {
+      name: 'description',
+      content: 'Services funéraires professionnels à Kinshasa. Atlantis Venue accompagne les familles avec dignité et compassion. Cérémonies funéraires, veillées mortuaires, salles de deuil en RDC.'
+    },
+    {
+      name: 'keywords',
+      content: 'funérailles Kinshasa, deuil Kinshasa, services funéraires RDC, veillée mortuaire, cérémonie funéraire Congo, salle de deuil Kinshasa'
+    }
+  ]
+});
+
 </script>
 
 <style scoped>

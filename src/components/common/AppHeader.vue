@@ -45,7 +45,7 @@ interface NavLink {
 }
 
 const navLinks: NavLink[] = [
-  { path: '/', label: 'Acceuil' },
+  { path: '/', label: 'Accueil' },
   { path: '/a-propos', label: 'A propos de nous' },
   { path: '/funerailles', label: 'Funerailles' },
   { path: '/celebrations', label: 'Celebrations' },

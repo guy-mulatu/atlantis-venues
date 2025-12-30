@@ -1,7 +1,7 @@
 <template>
   <ServiceDetail
-    title="Celebrations"
-    subtitle="Making your special moments unforgettable"
+    title="Célébrations"
+    subtitle="Faire de votre événements un souvenir inoubliable"
     background-image="/images/background/celebration-bg.png"
   >
     <div class="content">
@@ -110,12 +110,39 @@
         </p>
       </section>
     </div>
+
+    <!-- Social Media - Instagram + Facebook -->
+    <SocialMedia
+      :networks="['facebook', 'instagram']"
+      heading="Découvrez nos célébrations"
+      description="Suivez-nous sur Instagram et Facebook pour voir des photos inspirantes de nos événements et restez informés de nos actualités."
+      facebook-url="https://facebook.com/atlantisvenue-celebrations"
+      instagram-url="https://instagram.com/atlantisvenue"
+    />
+
   </ServiceDetail>
 </template>
 
 <script setup lang="ts">
-import ServiceDetail from '@/components/features/ServiceDetail.vue'
+import ServiceDetail from '@/components/features/ServiceDetail.vue';
 import ExpandableCard from '@/components/common/ExpandableCard.vue';
+import SocialMedia from '@/components/common/SocialMedia.vue';
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Célébrations & Mariages à Kinshasa - Atlantis Venue | Fêtes Inoubliables',
+  meta: [
+    {
+      name: 'description',
+      content: 'Organisez vos célébrations à Kinshasa avec Atlantis Venue : mariages, anniversaires, fiançailles, baptêmes. Salles de fête modernes et packages personnalisés en RDC.'
+    },
+    {
+      name: 'keywords',
+      content: 'mariage Kinshasa, salle de fête Kinshasa, célébration RDC, anniversaire Congo, fête Kinshasa, réception mariage, salle de réception Kinshasa'
+    }
+  ]
+});
+
 </script>
 
 <style scoped>
