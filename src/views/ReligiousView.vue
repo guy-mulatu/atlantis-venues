@@ -2,7 +2,7 @@
   <ServiceDetail
     title="Spiritual Events"
     subtitle="Creating sacred spaces for meaningful gatherings"
-    background-image="/images/spiritual-bg.jpg"
+    background-image="/images/background/religious-bg.png"
   >
     <div class="content">
       <section class="section">
@@ -21,6 +21,7 @@
       <section class="section">
         <h2 class="heading">Spiritual Event Services</h2>
         <ul class="list">
+          <li class="list-item">Capacité de 300 personnes assises</li>
           <li class="list-item">Religious ceremonies and rituals</li>
           <li class="list-item">Baptisms and christenings</li>
           <li class="list-item">Bar/Bat Mitzvahs</li>

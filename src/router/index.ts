@@ -15,12 +15,12 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
+      path: '/a-propos',
       name: 'about',
       component: AboutView
     },
     {
-      path: '/funerals',
+      path: '/funerailles',
       name: 'funerals',
       component: FuneralView
     },
@@ -30,12 +30,12 @@ const router = createRouter({
       component: CelebrationView
     },
     {
-      path: '/corporate',
+      path: '/entreprises',
       name: 'corporate',
       component: CorporateView
     },
     {
-      path: '/religious',
+      path: '/religieux',
       name: 'religious',
       component: ReligiousView
     }

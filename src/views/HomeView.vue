@@ -1,22 +1,24 @@
 <template>
   <div class="home">
     <section class="hero">
+      <div class="hero__background"></div>
+      <div class="hero__overlay"></div>
       <div class="hero__content">
-        <h1 class="hero__title">Creating Unforgettable Moments</h1>
+        <h1 class="hero__title">Création de moments inoubliables</h1>
         <p class="hero__subtitle">
-          Professional event planning services for every occasion
+          Professionnels de la création d'événements
         </p>
-        <router-link to="/about" class="hero__cta">
-          Learn More About Us
+        <router-link to="/a-propos" class="hero__cta">
+          En Savoir Plus
         </router-link>
       </div>
     </section>
 
     <section class="services">
       <div class="services__container">
-        <h2 class="services__heading">Our Services</h2>
+        <h2 class="services__heading">Nos Services</h2>
         <p class="services__description">
-          We specialize in creating meaningful experiences tailored to your needs
+          Nous sommes spécialisés dans la création d'expériences porteuses de sens, adaptées à vos besoins.
         </p>
         
         <div class="services__grid">
@@ -50,14 +52,32 @@ const services = serviceCategories
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   text-align: center;
   padding: 2rem 1.5rem;
+  overflow: hidden;
+}
+
+.hero__background {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/gallery/large_1.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.7) 0%, rgba(24, 0, 173, 0.8) 100%);
+  z-index: 1;
 }
 
 .hero__content {
+  position: relative;
   max-width: 800px;
+  z-index: 2;
 }
 
 .hero__title {
@@ -65,6 +85,7 @@ const services = serviceCategories
   font-weight: 800;
   margin: 0 0 1rem 0;
   line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero__subtitle {
@@ -72,6 +93,7 @@ const services = serviceCategories
   margin: 0 0 2rem 0;
   opacity: 0.95;
   line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .hero__cta {

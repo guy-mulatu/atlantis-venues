@@ -1,43 +1,39 @@
 <template>
   <ServiceDetail
-    title="Funeral Services"
-    subtitle="Honoring lives with dignity and compassion"
-    background-image="/images/funerals-bg.jpg"
+    title="Services Funeraires"
+    subtitle="Honorer la vie avec compassion et dignité"
+    background-image="/images/background/funerals-bg.png"
   >
     <div class="content">
       <section class="section">
-        <h2 class="heading">Compassionate Funeral Planning</h2>
+        <h2 class="heading">Un accompagnement funéraire empreint de compassion</h2>
         <p class="text">
-          Losing a loved one is never easy. Our compassionate team is here to guide you 
-          through every step of planning a meaningful funeral service that honors their 
-          memory and celebrates their life.
+          Perdre un être cher n’est jamais facile. 
+          Notre équipe bienveillante est là pour vous accompagner à chaque étape de l’organisation d’une cérémonie funéraire empreinte de sens, 
+          afin d’honorer sa mémoire et de célébrer sa vie.
         </p>
         <p class="text">
-          We understand the importance of creating a dignified and personalized ceremony 
-          that reflects the unique personality and values of your loved one.
+          Nous comprenons l’importance de créer une cérémonie digne et personnalisée, qui reflète la personnalité unique et les valeurs de votre proche.
         </p>
       </section>
 
       <section class="section">
-        <h2 class="heading">Our Funeral Services Include</h2>
+        <h2 class="heading">Nos Services Funeraires Comprennent</h2>
         <ul class="list">
-          <li class="list-item">Traditional funeral ceremonies</li>
-          <li class="list-item">Memorial services</li>
-          <li class="list-item">Celebration of life events</li>
-          <li class="list-item">Graveside services</li>
-          <li class="list-item">Coordination with funeral homes and clergy</li>
-          <li class="list-item">Venue selection and setup</li>
-          <li class="list-item">Audio-visual arrangements</li>
-          <li class="list-item">Reception planning</li>
+          <li class="list-item">Capacité de 200 personnes assises</li>
+          <li class="list-item">Salle adaptée aux veillées mortuaires</li>
+          <li class="list-item">Espace propre, sécurisé et aménagé</li>
+          <li class="list-item">Chaises confortables et disposition harmonieuse</li>
+          <li class="list-item">Possibilité d’installer autel, photo, fleurs et équipements d’hommage.</li>
+          <li class="list-item">Location de corbillard avec chauffeur</li>
+
         </ul>
       </section>
 
       <section class="section">
-        <h2 class="heading">Let Us Help You</h2>
+        <h2 class="heading">Laissez nous vous aider</h2>
         <p class="text">
-          Our experienced team will work closely with you to ensure every detail is 
-          handled with care and respect. Contact us to discuss how we can support you 
-          during this difficult time.
+          ​Nous nous engageons à vous accompagner avec humanité, discrétion et professionnalisme.
         </p>
       </section>
     </div>

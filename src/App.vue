@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-// import { RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import AppHeader from '@/components/common/AppHeader.vue'
 import AppFooter from '@/components/common/AppFooter.vue'
 </script>
@@ -21,10 +21,17 @@ import AppFooter from '@/components/common/AppFooter.vue'
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 #app {

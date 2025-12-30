@@ -3,22 +3,26 @@
     <div class="footer__container">
       <div class="footer__content">
         <div class="footer__section">
-          <h3 class="footer__heading">Atlantis</h3>
-          <p class="footer__text">Creating memorable moments for every occasion</p>
+          <h3 class="footer__heading">
+            <span class="footer__logo-text--bold">Atlantis</span>
+            <span class="footer__logo-text--italic">Venue</span>
+          </h3>
+          <p class="footer__text">Createurs de moment memorables en toutes occasions</p>
         </div>
         
         <div class="footer__section">
           <h4 class="footer__heading">Contact</h4>
           <p class="footer__text">Email: info@Atlantis.com</p>
-          <p class="footer__text">Phone: (555) 123-4567</p>
+          <p class="footer__text">Adresse: 8 avenue Lopori croisement Shaba/Lopori</p>
+          <p class="footer__text">Phone: (+243) 85 11 53 787</p>
         </div>
         
         <div class="footer__section">
           <h4 class="footer__heading">Services</h4>
-          <router-link to="/funerals" class="footer__link">Funerals</router-link>
+          <router-link to="/funerailless" class="footer__link">Funerailles</router-link>
           <router-link to="/celebrations" class="footer__link">Celebrations</router-link>
           <router-link to="/corporate" class="footer__link">Corporate</router-link>
-          <router-link to="/spiritual" class="footer__link">Spiritual</router-link>
+          <router-link to="/religieux" class="footer__link">Religieux</router-link>
         </div>
       </div>
       
@@ -48,6 +52,15 @@
   grid-template-columns: 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+.footer__logo-text--bold {
+  font-weight: 700;
+}
+
+.footer__logo-text--italic {
+  font-style: italic;
+  font-weight: 400;
 }
 
 .footer__section {

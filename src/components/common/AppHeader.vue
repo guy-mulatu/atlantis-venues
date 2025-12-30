@@ -2,7 +2,14 @@
   <header class="header">
     <div class="header__container">
       <router-link to="/" class="header__logo">
-        <h1 class="header__logo-text">Atlantis</h1>
+        <img 
+          src="/images/logo/logo.png" 
+          alt="AtlantisVenue Logo" 
+          class="header__logo-image"
+        >
+        <h1 class="header__logo-text">
+          <!-- <span class="header__logo-text--bold">Atlantis</span><span class="header__logo-text--italic">Venue</span> -->
+        </h1>
       </router-link>
       
       <button 
@@ -38,12 +45,12 @@ interface NavLink {
 }
 
 const navLinks: NavLink[] = [
-  { path: '/', label: 'Home' },
-  { path: '/about', label: 'About Us' },
-  { path: '/funerals', label: 'Funerals' },
+  { path: '/', label: 'Acceuil' },
+  { path: '/a-propos', label: 'A propos de nous' },
+  { path: '/funerailles', label: 'Funerailles' },
   { path: '/celebrations', label: 'Celebrations' },
-  { path: '/corporate', label: 'Corporate' },
-  { path: '/religious', label: 'Religious' }
+  { path: '/entreprises', label: 'Entreprises' },
+  { path: '/religieux', label: 'Religieux' }
 ]
 
 const isMenuOpen = ref(false)
@@ -78,14 +85,34 @@ const closeMenu = () => {
 }
 
 .header__logo {
+  display: flex;
   text-decoration: none;
   color: white;
+  align-items: center;
+  gap: 0.75rem;  /* Space between logo and text */
 }
+
+.header__logo-image {
+  height: 52px;  /* Mobile */
+  width: auto;
+}
+
 
 .header__logo-text {
   font-size: 1.5rem;
+  font-weight: 400; /* Base weight */
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem; /* Small space between words */
+}
+
+.header__logo-text--bold {
   font-weight: 700;
-  margin: 0;
+}
+
+.header__logo-text--italic {
+  font-style: italic;
+  font-weight: 400;
 }
 
 .header__mobile-toggle {

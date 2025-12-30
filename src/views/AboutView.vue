@@ -1,45 +1,44 @@
 <template>
   <div class="about">
     <section class="about__hero">
+      <div class="about__hero-background"></div>
+      <div class="about__hero-overlay"></div>
       <div class="about__hero-content">
-        <h1 class="about__title">About Atlantis</h1>
-        <p class="about__subtitle">Your trusted partner in creating memorable events</p>
+        <h1 class="about__title">AtlantisVenue</h1>
+        <p class="about__subtitle">Votre partenaire de confiance pour créer des événements mémorables</p>
       </div>
     </section>
 
     <section class="about__content">
       <div class="about__container">
         <div class="about__section">
-          <h2 class="about__heading">Our Story</h2>
+          <h2 class="about__heading">Qui sommes nous</h2>
           <p class="about__text">
-            Founded with a passion for creating meaningful experiences, Atlantis has been 
-            serving our community for over a decade. We understand that every event is 
-            unique and deserves personalized attention to detail.
+            <span class="brand-name">ATLANTIS Venue</span>, c'est un ensemble de salles de fêtes situées au cœur de Kinshasa, 
+            pensées pour accueillir vos moments importants avec confort, dignité et professionnalisme.
           </p>
           <p class="about__text">
-            Our team of experienced professionals is dedicated to making your vision a 
-            reality, whether it's a celebration of life, a corporate gathering, or a 
-            spiritual ceremony.
+            Notre équipe de professionnels expérimentés s'engage à donner vie à votre vision, qu'il s'agisse d'une célébration de la vie, 
+            d'un événement d'entreprise ou d'une cérémonie spirituelle.
           </p>
         </div>
 
         <div class="about__section">
-          <h2 class="about__heading">Our Mission</h2>
+          <h2 class="about__heading">Notre mission</h2>
           <p class="about__text">
-            To provide exceptional event planning services that honor the significance 
-            of each occasion. We believe in the power of well-orchestrated events to 
-            bring people together and create lasting memories.
+            Offrir des espaces adaptés à chaque type d'événement, qu'il s'agisse de célébrer, de rassembler, de se réunir… 
+            ou d'accompagner les familles dans les moments plus sensibles.
           </p>
         </div>
 
         <div class="about__section">
-          <h2 class="about__heading">Why Choose Us</h2>
+          <h2 class="about__heading">Pourquoi nous</h2>
           <ul class="about__list">
-            <li class="about__list-item">Over 10 years of experience in event planning</li>
-            <li class="about__list-item">Personalized service tailored to your needs</li>
-            <li class="about__list-item">Professional and compassionate team</li>
-            <li class="about__list-item">Attention to every detail</li>
-            <li class="about__list-item">Comprehensive event management solutions</li>
+            <li class="about__list-item">Plus de 10 ans d'expérience dans l'organisation d'événements</li>
+            <li class="about__list-item">Un service personnalisé, adapté à vos besoins</li>
+            <li class="about__list-item">Une équipe professionnelle et bienveillante</li>
+            <li class="about__list-item">Une attention portée à chaque détail</li>
+            <li class="about__list-item">Des solutions complètes de gestion d'événements</li>
           </ul>
         </div>
       </div>
@@ -52,28 +51,54 @@
   min-height: 100vh;
 }
 
+.brand-name {
+  font-weight: 600;
+  color: #764ba2;
+}
+
 .about__hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: relative;
   color: white;
   padding: 4rem 1.5rem 3rem;
   text-align: center;
+  overflow: hidden;
+}
+
+.about__hero-background {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/gallery/trone_2.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.about__hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.7) 0%, rgba(24, 0, 173, 0.8) 100%);
+  z-index: 1;
 }
 
 .about__hero-content {
+  position: relative;
   max-width: 800px;
   margin: 0 auto;
+  z-index: 2;
 }
 
 .about__title {
   font-size: 2.5rem;
   font-weight: 800;
   margin: 0 0 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .about__subtitle {
   font-size: 1.25rem;
   margin: 0;
   opacity: 0.95;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .about__content {

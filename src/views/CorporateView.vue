@@ -1,46 +1,43 @@
 <template>
   <ServiceDetail
-    title="Corporate Events"
-    subtitle="Professional event management for business success"
-    background-image="/images/corporate-bg.jpg"
+    title="Entreprises"
+    subtitle="Gestion d'événements professionnels permettant les échanges et accords commerciaux"
+    background-image="/images/background/corporate-bg.png"
   >
     <div class="content">
       <section class="section">
-        <h2 class="heading">Elevate Your Corporate Events</h2>
+        <h2 class="heading">Valorisez vos événements d’entreprise</h2>
         <p class="text">
-          In the business world, every event is an opportunity to strengthen relationships, 
-          showcase your brand, and achieve your organizational goals. We deliver 
-          professional, polished corporate events that leave lasting impressions.
+          Dans le monde des affaires, chaque événement est une occasion de renforcer les relations, 
+          de valoriser votre marque et d’atteindre vos objectifs organisationnels. 
+          Organisez des reunions professionnels et soignés qui laissent une impression durable.
         </p>
         <p class="text">
-          From intimate board meetings to large-scale conferences, our team ensures every 
-          detail aligns with your corporate objectives and brand identity.
+          Des réunions de direction en petit comité aux conférences de grande envergure, 
+          notre équipe veille à ce que chaque détail soit en parfaite adéquation avec vos objectifs et votre identité de marque.
         </p>
       </section>
 
       <section class="section">
-        <h2 class="heading">Corporate Event Services</h2>
+        <h2 class="heading">Reunion d'Entreprises</h2>
         <ul class="list">
-          <li class="list-item">Conferences and seminars</li>
-          <li class="list-item">Product launches and unveilings</li>
-          <li class="list-item">Team building events</li>
-          <li class="list-item">Company retreats and offsites</li>
-          <li class="list-item">Annual meetings and AGMs</li>
-          <li class="list-item">Holiday parties and celebrations</li>
-          <li class="list-item">Networking events</li>
-          <li class="list-item">Trade shows and exhibitions</li>
-          <li class="list-item">Award ceremonies</li>
-          <li class="list-item">Virtual and hybrid event solutions</li>
+          <li class="list-item">Conferences & seminaires</li>
+          <li class="list-item">Lancements et présentations de produits</li>
+          <li class="list-item">Événements de team building (renforcement d’équipe)</li>
+          <li class="list-item">Retraites et séjours d’entreprise</li>
+          <li class="list-item">Assemblées annuelles et AG</li>
+          <li class="list-item">Fêtes et célébrations d’entreprise</li>
+          <li class="list-item">Événements de networking (réseautage professionnel)</li>
+          <li class="list-item">Cérémonies de remise de prix</li>
         </ul>
       </section>
 
       <section class="section">
-        <h2 class="heading">Strategic Event Planning</h2>
+        <h2 class="heading">Stratégie et planification</h2>
         <p class="text">
-          We understand that corporate events require precision, professionalism, and 
-          strategic thinking. Our team manages every aspect—from venue selection and 
-          logistics to technology integration and attendee engagement—ensuring your event 
-          achieves its business objectives.
+          Nous comprenons que les événements d’entreprise exigent précision, professionnalisme et réflexion stratégique. 
+          Notre équipe gère chaque aspect de la logistique à l’intégration des technologies et à l’engagement des participants 
+          afin que votre événement atteigne pleinement ses objectifs business.
         </p>
       </section>
     </div>
