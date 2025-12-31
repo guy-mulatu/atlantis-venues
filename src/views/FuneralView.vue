@@ -20,13 +20,12 @@
       <section class="section">
         <h2 class="heading">Nos Services Funeraires Comprennent</h2>
         <ul class="list">
-          <li class="list-item">Capacité de 200 personnes assises</li>
+          <li class="list-item">Capacité de 300 personnes assises</li>
           <li class="list-item">Salle adaptée aux veillées mortuaires</li>
           <li class="list-item">Espace propre, sécurisé et aménagé</li>
           <li class="list-item">Chaises confortables et disposition harmonieuse</li>
           <li class="list-item">Possibilité d’installer autel, photo, fleurs et équipements d’hommage.</li>
           <li class="list-item">Location de corbillard avec chauffeur</li>
-
         </ul>
       </section>
 
@@ -37,6 +36,13 @@
         </p>
       </section>
     </div>
+
+    <!-- Contact Section - Funeral Venue Only -->
+    <ContactSection 
+      :show-main-venue="false"
+      heading="Nous sommes à votre écoute"
+      description="Contactez-nous pour accompagner votre famille dans ce moment difficile"
+    />
 
     <!-- Social Media CTA - YouTube only -->
     <SocialMedia
@@ -52,7 +58,8 @@
 <script setup lang="ts">
 import ServiceDetail from '@/components/features/ServiceDetail.vue';
 import SocialMedia from '@/components/common/SocialMedia.vue';
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
+import ContactSection from '@/components/common/ContactSection.vue';
 
 useHead({
   title: 'Services Funéraires à Kinshasa - Atlantis Venue | Funérailles Dignes',

@@ -42,11 +42,23 @@
           </ul>
         </div>
 
+        <div class="about__section">
+          <h2 class="about__heading">Notre équipe</h2>
+          <p class="about__text">
+            Chez Atlantis Venue, nous croyons que la réussite d’un évènement repose avant tout sur l’humain. 
+            Nos équipes sont composées de professionnels disponibles, attentifs et engages, présents à chaque étape pour vous accompagner avec sérieux et bienveillance.
+          </p>
+          <p class="about__text">
+            Des votre arrivée, vous êtes accueillis et orientes par notre équipe sur place, à l’écoute de vos attentes. Un agent d’accueil et de relation client vous accompagne dans la découverte de nos salles, 
+            vous aide à définir votre projet et vous présente l’ensemble des services disponibles, afin de vous propose la solution la plus adaptée à votre évènement.
+          </p>
+        </div>
+
         <!-- Add Gallery Section -->
         <div class="about__section" id="gallery">
           <h2 class="about__heading">Notre galerie</h2>
           <p class="about__text">
-            Découvrez nos espaces et quelques moments mémorables capturés lors d'événements précédents.
+            Découvrez nos espaces et quelques exemples de mise en place capturés lors d'événements précédents.
           </p>
           <ImageGallery :images="galleryImages" />
         </div>

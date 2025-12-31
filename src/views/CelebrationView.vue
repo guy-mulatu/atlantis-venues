@@ -1,7 +1,7 @@
 <template>
   <ServiceDetail
     title="Célébrations"
-    subtitle="Faire de votre événements un souvenir inoubliable"
+    subtitle="Faire de votre événement un souvenir inoubliable"
     background-image="/images/background/celebration-bg.png"
   >
     <div class="content">
@@ -111,6 +111,12 @@
       </section>
     </div>
 
+    <ContactSection 
+      :show-funeral-venue="false"
+      heading="Réservez votre célébration"
+      description="Contactez-nous par telephone, email ou vous pouvez vous presenter directement sur place"
+    />
+
     <!-- Social Media - Instagram + Facebook -->
     <SocialMedia
       :networks="['facebook', 'instagram']"
@@ -127,7 +133,8 @@
 import ServiceDetail from '@/components/features/ServiceDetail.vue';
 import ExpandableCard from '@/components/common/ExpandableCard.vue';
 import SocialMedia from '@/components/common/SocialMedia.vue';
-import { useHead } from '@unhead/vue'
+import { useHead } from '@unhead/vue';
+import ContactSection from '@/components/common/ContactSection.vue';
 
 useHead({
   title: 'Célébrations & Mariages à Kinshasa - Atlantis Venue | Fêtes Inoubliables',

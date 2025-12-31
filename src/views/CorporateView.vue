@@ -40,12 +40,20 @@
           afin que votre événement atteigne pleinement ses objectifs business.
         </p>
       </section>
+
+      <ContactSection 
+      :show-funeral-venue="false"
+      heading="Réservez votre célébration"
+      description="Contactez-nous par telephone, email ou vous pouvez vous presenter directement sur place"
+      />
+
     </div>
   </ServiceDetail>
 </template>
 
 <script setup lang="ts">
 import ServiceDetail from '@/components/features/ServiceDetail.vue';
+import ContactSection from '@/components/common/ContactSection.vue';
 import { useHead } from '@unhead/vue';
 
 useHead({
