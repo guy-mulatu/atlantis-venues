@@ -40,22 +40,20 @@ const router = createRouter({
       component: ReligiousView
     }
   ],
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to, _from, savedPosition) {
     // If there's a hash (like #gallery), scroll to that element
     if (to.hash) {
       return {
         el: to.hash,
         behavior: 'smooth',
-        top: 80  // Offset for fixed header (adjust if needed)
+        top: 80 
       }
     }
     
-    // If browser back/forward button was used
     if (savedPosition) {
       return savedPosition
     }
     
-    // Default: scroll to top
     return { top: 0 }
   }
 })
