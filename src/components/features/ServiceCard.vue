@@ -14,9 +14,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useRouter } from 'vue-router'
-import type { ServiceCategory } from '@/types/service'
+import { useRouter } from 'vue-router';
+import type { ServiceCategory } from '@/types/service';
 
 interface Props {
   service: ServiceCategory
