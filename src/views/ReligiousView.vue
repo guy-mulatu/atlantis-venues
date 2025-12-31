@@ -6,7 +6,7 @@
   >
     <div class="content">
       <section class="section">
-        <h2 class="heading">Honor Your Spiritual Journey</h2>
+        <h2 class="heading">Honorez votre parcours spirituel</h2>
         <p class="text">
           Les cérémonies et rassemblements spirituels ont une profonde signification, marquant des transitions et des célébrations importantes dans nos vies. 
           Nous abordons chaque événement spirituel avec respect et sensibilité, en honorant la diversité des traditions et des croyances.
@@ -33,7 +33,7 @@
       heading="Réservez votre célébration"
       description="Contactez-nous par telephone, email ou vous pouvez vous presenter directement sur place"
       />
-      
+
     </div>
   </ServiceDetail>
 </template>

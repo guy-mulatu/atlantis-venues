@@ -21,7 +21,7 @@
           <h4 class="footer__heading">Services</h4>
           <router-link to="/funerailless" class="footer__link">Funerailles</router-link>
           <router-link to="/celebrations" class="footer__link">Celebrations</router-link>
-          <router-link to="/corporate" class="footer__link">Corporate</router-link>
+          <router-link to="/entreprises" class="footer__link">Entreprises</router-link>
           <router-link to="/religieux" class="footer__link">Religieux</router-link>
           <router-link to="/a-propos#gallery" class="footer__link">Galerie</router-link>
         </div>

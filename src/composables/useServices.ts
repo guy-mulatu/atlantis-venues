@@ -27,7 +27,7 @@ export const serviceCategories: ServiceCategory[] = [
     title: 'Religieux',
     route: '/religieux',
     backgroundImage: '/images/background/religious-bg.png',
-    description: 'Meaningful spiritual ceremonies and gatherings'
+    description: 'Rassemblements spirituels'
   }
 ]
 
