@@ -75,12 +75,15 @@ const galleryImages = [
   { src: '/images/gallery/trone_1.jpg', alt: 'Trone de mariage' },
   { src: '/images/gallery/trone_2.jpg', alt: 'Célébration de mariage' },
   { src: '/images/gallery/trone_3.jpg', alt: 'Trone de mariage' },
-  { src: '/images/gallery/trone_4.jpg', alt: 'Trone de mariage' },
+  { src: '/images/gallery/trone_4.jpg', alt: 'Table hote d\'honneur' },
   { src: '/images/gallery/wedding_1.jpg', alt: 'Decoration de mariage' },
-  { src: '/images/gallery/wedding_2.jpg', alt: 'Decoration de mariage' },
+  { src: '/images/gallery/wedding_2.jpg', alt: 'Decoration de fete' },
   { src: '/images/gallery/funeral_1.jpg', alt: 'Decoration de funerailles' },
   { src: '/images/gallery/funeral_2.jpg', alt: 'Installation de funerailles' },
   { src: '/images/gallery/large_1.jpg', alt: 'Installation de mariage' },
+  { src: '/images/gallery/funerals_setup1.JPG', alt: 'Mise en place veillée funéraire' },
+  { src: '/images/gallery/table_maries_1.JPG', alt: 'Table d\'honneur' },
+  { src: '/images/gallery/tapis_rouge.JPG', alt: 'Tapis rouge' },
 ];
 
 useHead({
@@ -115,7 +118,7 @@ useHead({
 .about__hero-background {
   position: absolute;
   inset: 0;
-  background-image: url('/images/gallery/trone_2.jpg');
+  background-image: url('/images/gallery/table_maries_3.JPG');
   background-size: cover;
   background-position: center;
   z-index: 0;

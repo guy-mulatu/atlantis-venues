@@ -20,7 +20,7 @@
       <section class="section">
         <h2 class="heading">Nos Services Funeraires Comprennent</h2>
         <ul class="list">
-          <li class="list-item">Capacité de 300 personnes assises</li>
+          <li class="list-item">Capacité de 1000 personnes assises</li>
           <li class="list-item">Salle adaptée aux veillées mortuaires</li>
           <li class="list-item">Ecran géant</li>
           <li class="list-item">Diffusion live sur youtube</li>
@@ -49,6 +49,7 @@
     <!-- Social Media CTA - YouTube only -->
     <SocialMedia
       :networks="['youtube']"
+      background-image="/images/gallery/funeral_1.jpg"
       heading="Live"
       description="Vous avez la possibilite de diffuser votre evenement en live via notre chaine youtube."
       youtube-url="https://youtube.com/@atlantisvenue-funerals"

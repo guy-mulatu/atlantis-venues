@@ -31,10 +31,13 @@
       </div>
     </section>
 
+    <!-- Gallery Preview with Background Image -->
     <section class="gallery-preview">
+      <div class="gallery-preview__background"></div>
+      <div class="gallery-preview__overlay"></div>
       <div class="gallery-preview__container">
-        <h2>Découvrez nos espaces</h2>
-        <p>Explorez notre galerie d'événements et de salles</p>
+        <h2 class="gallery-preview__heading">Découvrez nos espaces</h2>
+        <p class="gallery-preview__description">Explorez notre galerie d'événements et de salles</p>
         <router-link to="/a-propos#gallery" class="gallery-preview__cta">
           Voir la galerie
         </router-link>
@@ -91,7 +94,7 @@ useHead({
 .hero__background {
   position: absolute;
   inset: 0;
-  background-image: url('/images/gallery/large_1.jpg');
+  background-image: url('/images/gallery/salle_fleurs.JPG');
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -179,21 +182,41 @@ useHead({
 
 /* Gallery Preview Section */
 .gallery-preview {
-  background: linear-gradient(135deg, #667eea 0%, #1800AD 100%);
+  position: relative;
   padding: 4rem 1.5rem;
   text-align: center;
   color: white;
+  overflow: hidden;
+}
+
+.gallery-preview__background {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/gallery/tapis_rouge.JPG');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.gallery-preview__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.85) 0%, rgba(24, 0, 173, 0.9) 100%);
+  z-index: 1;
 }
 
 .gallery-preview__container {
+  position: relative;
   max-width: 800px;
   margin: 0 auto;
+  z-index: 2;
 }
 
 .gallery-preview__heading {
   font-size: 2rem;
   font-weight: 700;
   margin: 0 0 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .gallery-preview__description {
@@ -201,6 +224,7 @@ useHead({
   margin: 0 0 2rem 0;
   opacity: 0.95;
   line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .gallery-preview__cta {

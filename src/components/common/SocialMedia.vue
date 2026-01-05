@@ -1,5 +1,12 @@
 <template>
   <div class="social">
+    <div 
+      v-if="backgroundImage" 
+      class="social__background"
+      :style="{ backgroundImage: `url(${backgroundImage})`}"
+      >
+    </div>
+    <div class="social__overlay"></div>
     <div class="social__container">
       <h3 class="social__heading">{{ heading }}</h3>
       <p class="social__description">
@@ -72,6 +79,7 @@ interface Props {
   networks: ('facebook' | 'instagram' | 'youtube' | 'tiktok')[]
   heading?: string
   description?: string
+  backgroundImage?: string
   facebookUrl?: string
   instagramUrl?: string
   youtubeUrl?: string
@@ -81,6 +89,7 @@ interface Props {
 withDefaults(defineProps<Props>(), {
   heading: 'Restez connectés avec nous',
   description: 'Suivez-nous sur nos réseaux sociaux pour découvrir nos actualités, événements à venir et moments mémorables partagés par nos clients.',
+  backgroundImage: '',
   facebookUrl: 'https://facebook.com/atlantisvenue',
   instagramUrl: 'https://instagram.com/atlantisvenue',
   youtubeUrl: 'https://youtube.com/@atlantisvenue',
@@ -90,15 +99,34 @@ withDefaults(defineProps<Props>(), {
 
 <style scoped>
 .social {
+  position: relative;
   background: linear-gradient(135deg, #667eea 0%, #1800AD 100%);
   padding: 3rem 1.5rem;
   margin-top: 4rem;
+  overflow: hidden;
+}
+
+.social__background {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.social__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.85) 0%, rgba(24, 0, 173, 0.9) 100%);
+  z-index: 1;
 }
 
 .social__container {
+  position: relative;
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+  z-index: 2;
 }
 
 .social__heading {
@@ -106,6 +134,7 @@ withDefaults(defineProps<Props>(), {
   font-weight: 700;
   color: white;
   margin: 0 0 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .social__description {
@@ -117,6 +146,7 @@ withDefaults(defineProps<Props>(), {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .social__links {
