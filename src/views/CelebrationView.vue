@@ -93,6 +93,7 @@
         <h2 class="heading">Services Celebratives</h2>
         <ul class="list">
           <li class="list-item">Capacité de 300 personnes assises</li>
+          <li class="list-item">Retro projecteur</li>
           <li class="list-item">Fêtes de mariage</li>
           <li class="list-item">Fêtes d’anniversaire et célébrations de grandes étapes de vie</li>
           <li class="list-item">Célébrations de remise de diplôme</li>

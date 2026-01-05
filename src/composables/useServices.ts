@@ -5,7 +5,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: 'funerals',
     title: 'Funerailles',
     route: '/funerailles',
-    backgroundImage: '/images/background/funerals-bg.png',
+    backgroundImage: '/images/background/funerals-bg2.png',
     description: 'Services funeraire pleins de compassion et de dignites pour honorer vots proches'
   },
   {

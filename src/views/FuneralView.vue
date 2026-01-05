@@ -2,7 +2,7 @@
   <ServiceDetail
     title="Services Funeraires"
     subtitle="Honorer la vie avec compassion et dignité"
-    background-image="/images/background/funerals-bg.png"
+    background-image="/images/background/funerals-bg2.png"
   >
     <div class="content">
       <section class="section">
@@ -22,6 +22,8 @@
         <ul class="list">
           <li class="list-item">Capacité de 300 personnes assises</li>
           <li class="list-item">Salle adaptée aux veillées mortuaires</li>
+          <li class="list-item">Ecran géant</li>
+          <li class="list-item">Diffusion live sur youtube</li>
           <li class="list-item">Espace propre, sécurisé et aménagé</li>
           <li class="list-item">Chaises confortables et disposition harmonieuse</li>
           <li class="list-item">Possibilité d’installer autel, photo, fleurs et équipements d’hommage.</li>
