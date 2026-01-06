@@ -117,7 +117,7 @@ withDefaults(defineProps<Props>(), {
   mainAddress: '68 Av.LOPORI Croisement Shaba Kasa-vubu',
   mainPhone: '+243 85 11 53 787',
   mainEmail: 'info@atlantisvenue.com',
-  funeralAddress: '54 – 52 Blv. Lumumba Réf. Eglise Cité Bethel C/Limite',
+  funeralAddress: '54 – 52 Blv. Lumumba Réf. Eglise Cité Bethel C/Limite - Funa',
   funeralPhone: '+243 83 65 32 416',
   funeralEmail: 'info@atlantisvenue.com'
 })

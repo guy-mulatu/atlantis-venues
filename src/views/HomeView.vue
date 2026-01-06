@@ -94,7 +94,7 @@ useHead({
 .hero__background {
   position: absolute;
   inset: 0;
-  background-image: url('/images/gallery/salle_fleurs.JPG');
+  background-image: url('/images/gallery/salle_fleurs.jpg');
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -192,7 +192,7 @@ useHead({
 .gallery-preview__background {
   position: absolute;
   inset: 0;
-  background-image: url('/images/gallery/tapis_rouge.JPG');
+  background-image: url('/images/gallery/tapis_rouge.jpg');
   background-size: cover;
   background-position: center;
   z-index: 0;

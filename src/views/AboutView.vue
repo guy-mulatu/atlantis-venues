@@ -81,9 +81,9 @@ const galleryImages = [
   { src: '/images/gallery/funeral_1.jpg', alt: 'Decoration de funerailles' },
   { src: '/images/gallery/funeral_2.jpg', alt: 'Installation de funerailles' },
   { src: '/images/gallery/large_1.jpg', alt: 'Installation de mariage' },
-  { src: '/images/gallery/funerals_setup1.JPG', alt: 'Mise en place veillée funéraire' },
-  { src: '/images/gallery/table_maries_1.JPG', alt: 'Table d\'honneur' },
-  { src: '/images/gallery/tapis_rouge.JPG', alt: 'Tapis rouge' },
+  { src: '/images/gallery/funerals_setup1.jpg', alt: 'Mise en place veillée funéraire' },
+  { src: '/images/gallery/table_maries_1.jpg', alt: 'Table d\'honneur' },
+  { src: '/images/gallery/tapis_rouge.jpg', alt: 'Tapis rouge' },
 ];
 
 useHead({
@@ -118,7 +118,7 @@ useHead({
 .about__hero-background {
   position: absolute;
   inset: 0;
-  background-image: url('/images/gallery/table_maries_3.JPG');
+  background-image: url('/images/gallery/table_maries_3.jpg');
   background-size: cover;
   background-position: center;
   z-index: 0;
