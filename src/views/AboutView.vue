@@ -83,6 +83,9 @@ const galleryImages = [
   { src: '/images/gallery/large_1.jpg', alt: 'Installation de mariage' },
   { src: '/images/gallery/funerals_setup1.jpg', alt: 'Mise en place veillée funéraire' },
   { src: '/images/gallery/table_maries_1.jpg', alt: 'Table d\'honneur' },
+  { src: '/images/gallery/corbillard_2.jpg', alt: 'Corbillard arriere' },
+  { src: '/images/gallery/corbillard_3.jpg', alt: 'Corbillard de coté' },
+  { src: '/images/gallery/big_screen.jpg', alt: 'Ecran géant' },
   { src: '/images/gallery/tapis_rouge.jpg', alt: 'Tapis rouge' },
 ];
 
