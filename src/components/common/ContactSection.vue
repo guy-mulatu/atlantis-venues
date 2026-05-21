@@ -31,11 +31,44 @@
               </div>
             </div>
 
+                          <!-- Phone -->
             <div class="contact__info">
-              <svg class="contact__info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              <svg
+                class="contact__info-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
               </svg>
-              <a :href="`tel:${mainPhone}`" class="contact__info-link">{{ mainPhone }}</a>
+              <a :href="`tel:${mainPhoneRaw}`" class="contact__info-link">
+                {{ mainPhone }}
+              </a>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="contact__info">
+              <svg
+                class="contact__info-icon contact__info-icon--whatsapp"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.43 0 .04 5.39.04 12c0 2.11.55 4.17 1.6 5.99L0 24l6.17-1.61A11.9 11.9 0 0 0 12.04 24C18.65 24 24 18.61 24 12a11.86 11.86 0 0 0-3.48-8.52ZM12.04 21.82a9.77 9.77 0 0 1-4.98-1.36l-.36-.21-3.66.96.98-3.57-.24-.37A9.75 9.75 0 1 1 12.04 21.82Zm5.39-7.33c-.29-.15-1.72-.85-1.99-.94-.27-.1-.46-.15-.66.15-.19.29-.76.94-.93 1.13-.17.19-.34.22-.63.07-.29-.15-1.23-.45-2.35-1.44-.87-.77-1.46-1.73-1.63-2.02-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.66-1.59-.9-2.18-.24-.57-.48-.49-.66-.5h-.56c-.19 0-.5.07-.76.36-.26.29-1 1-1 2.44s1.03 2.84 1.17 3.04c.15.19 2.03 3.1 4.92 4.35.69.3 1.22.48 1.64.62.69.22 1.32.19 1.82.12.56-.08 1.72-.7 1.96-1.37.24-.67.24-1.25.17-1.37-.07-.12-.27-.19-.56-.34Z"
+                />
+              </svg>
+
+              <a
+                :href="`https://wa.me/${mainPhoneRaw}?text=Bonjour%20je%20souhaite%20obtenir%20des%20informations`"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__info-link contact__info-link--whatsapp"
+              >
+                Contact WhatsApp
+              </a>
             </div>
 
             <div class="contact__info">
@@ -74,12 +107,45 @@
               </div>
             </div>
 
-            <div class="contact__info">
-              <svg class="contact__info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-              </svg>
-              <a :href="`tel:${funeralPhone}`" class="contact__info-link">{{ funeralPhone }}</a>
-            </div>
+            <!-- Phone -->
+          <div class="contact__info">
+            <svg
+              class="contact__info-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+            <a :href="`tel:${funeralPhoneRaw}`" class="contact__info-link">
+              {{ funeralPhone }}
+            </a>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="contact__info">
+            <svg
+              class="contact__info-icon contact__info-icon--whatsapp"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.43 0 .04 5.39.04 12c0 2.11.55 4.17 1.6 5.99L0 24l6.17-1.61A11.9 11.9 0 0 0 12.04 24C18.65 24 24 18.61 24 12a11.86 11.86 0 0 0-3.48-8.52ZM12.04 21.82a9.77 9.77 0 0 1-4.98-1.36l-.36-.21-3.66.96.98-3.57-.24-.37A9.75 9.75 0 1 1 12.04 21.82Zm5.39-7.33c-.29-.15-1.72-.85-1.99-.94-.27-.1-.46-.15-.66.15-.19.29-.76.94-.93 1.13-.17.19-.34.22-.63.07-.29-.15-1.23-.45-2.35-1.44-.87-.77-1.46-1.73-1.63-2.02-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.66-1.59-.9-2.18-.24-.57-.48-.49-.66-.5h-.56c-.19 0-.5.07-.76.36-.26.29-1 1-1 2.44s1.03 2.84 1.17 3.04c.15.19 2.03 3.1 4.92 4.35.69.3 1.22.48 1.64.62.69.22 1.32.19 1.82.12.56-.08 1.72-.7 1.96-1.37.24-.67.24-1.25.17-1.37-.07-.12-.27-.19-.56-.34Z"
+              />
+            </svg>
+
+            <a
+              :href="`https://wa.me/${funeralPhoneRaw}?text=Bonjour%20je%20souhaite%20obtenir%20des%20informations`"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact__info-link contact__info-link--whatsapp"
+            >
+              Contact WhatsApp
+            </a>
+          </div>
 
             <div class="contact__info">
               <svg class="contact__info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -103,9 +169,11 @@ interface Props {
   showFuneralVenue?: boolean
   mainAddress?: string
   mainPhone?: string
+  mainPhoneRaw?: string
   mainEmail?: string
   funeralAddress?: string
   funeralPhone?: string
+  funeralPhoneRaw?: string
   funeralEmail?: string
 }
 
@@ -116,10 +184,12 @@ withDefaults(defineProps<Props>(), {
   showFuneralVenue: true,
   mainAddress: '68 Av.LOPORI Croisement Shaba Kasa-vubu',
   mainPhone: '+243 85 11 53 787',
-  mainEmail: 'info@atlantisvenue.com',
+  mainEmail: 'sales@atlantisvenues.com',
   funeralAddress: '54 – 52 Blv. Lumumba Réf. Eglise Cité Bethel C/Limite - Funa',
   funeralPhone: '+243 83 65 32 416',
-  funeralEmail: 'info@atlantisvenue.com'
+  funeralEmail: 'sales@atlantisvenues.com',
+  mainPhoneRaw: '243851153787',
+  funeralPhoneRaw: '243836532416',
 })
 </script>
 

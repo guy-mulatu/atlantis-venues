@@ -199,8 +199,12 @@ withDefaults(defineProps<Props>(), {
 }
 
 .social__link--tiktok:hover {
-  background-color: #000000;
+  background-color: #000;
   color: white;
+  box-shadow:
+    -3px 0 0 #25f4ee,
+    3px 0 0 #fe2c55,
+    0 8px 16px rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 768px) {

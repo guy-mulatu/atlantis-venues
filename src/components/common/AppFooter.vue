@@ -12,9 +12,18 @@
         
         <div class="footer__section">
           <h4 class="footer__heading">Contact</h4>
-          <p class="footer__text">Email: info@Atlantis.com</p>
+          <p class="footer__text">Email: sales@atlantisvenues.com</p>
           <p class="footer__text">Adresse: 8 avenue Lopori croisement Shaba/Lopori</p>
-          <p class="footer__text">Phone: (+243) 85 11 53 787</p>
+          <p class="footer__text">Phone: 
+            <a
+              href="https://wa.me/243851153787"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__link"
+            >
+              (+243) 85 11 53 787
+            </a>
+          </p>
         </div>
         
         <div class="footer__section">

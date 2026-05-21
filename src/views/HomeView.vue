@@ -94,7 +94,7 @@ useHead({
 .hero__background {
   position: absolute;
   inset: 0;
-  background-image: url('/images/gallery/salle_fleurs.jpg');
+  background-image: url('/images/gallery/table_maries_2.jpg');
   background-size: cover;
   background-position: center;
   z-index: 0;
