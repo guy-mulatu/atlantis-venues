@@ -37,11 +37,17 @@
       </div>
       
       <div class="footer__bottom">
-        <p class="footer__copyright">&copy; 2024 Atlantis. All rights reserved.</p>
+        <p class="footer__copyright">&copy; {{ currentYear }} Atlantis. All rights reserved.</p>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup>
+
+const currentYear = new Date().getFullYear()
+
+</script>
 
 <style scoped>
 .footer {

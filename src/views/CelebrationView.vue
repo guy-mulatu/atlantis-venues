@@ -120,7 +120,7 @@
 
     <!-- Social Media - Instagram + Facebook -->
     <SocialMedia
-      :networks="['facebook', 'tiktok']"
+      :networks="['facebook', 'tiktok', 'instagram']"
       background-image="/images/gallery/trone_1.jpg"
       heading="Découvrez nos célébrations"
       description="Suivez-nous sur Instagram et Facebook pour voir des photos inspirantes de nos événements et restez informés de nos actualités."
