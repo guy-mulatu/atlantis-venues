@@ -90,7 +90,7 @@ withDefaults(defineProps<Props>(), {
   heading: 'Restez connectés avec nous',
   description: 'Suivez-nous sur nos réseaux sociaux pour découvrir nos actualités, événements à venir et moments mémorables partagés par nos clients.',
   backgroundImage: '',
-  facebookUrl: 'https://facebook.com/atlantisvenue',
+  facebookUrl: 'https://www.facebook.com/61590385094923/',
   instagramUrl: 'https://instagram.com/atlantis_venue',
   youtubeUrl: 'https://youtube.com/@atlantisvenue',
   tiktokUrl: 'https://tiktok.com/@atlantisvenue'
