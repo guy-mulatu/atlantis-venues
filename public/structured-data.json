@@ -6,7 +6,7 @@
   "url": "https://atlantisvenues.com",
   "logo": "https://atlantisvenues.com/images/logo/logo.png",
   "telephone": "+243-83-65-32-416",
-  "email": "info@atlantisvenue.com",
+  "email": "info@atlantisvenues.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Boulevard Lumumba N° 54 – 52",
@@ -32,8 +32,8 @@
   ],
   "sameAs": [
     "https://facebook.com/atlantisvenue",
-    "https://instagram.com/atlantisvenue",
-    "https://youtube.com/@atlantisvenue"
+    "https://instagram.com/atlantis_venue",
+    "https://www.tiktok.com/@atlantisvenue"
   ],
   "priceRange": "$$"
 }

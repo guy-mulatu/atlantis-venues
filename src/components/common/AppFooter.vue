@@ -12,7 +12,7 @@
         
         <div class="footer__section">
           <h4 class="footer__heading">Contact</h4>
-          <p class="footer__text">Email: sales@atlantisvenues.com</p>
+          <p class="footer__text">Email: info@atlantisvenues.com</p>
           <p class="footer__text">Adresse: 8 avenue Lopori croisement Shaba/Lopori</p>
           <p class="footer__text">Phone: 
             <a
