@@ -5,6 +5,7 @@ import FuneralView from '@/views/FuneralView.vue'
 import CelebrationView from '@/views/CelebrationView.vue'
 import CorporateView from '@/views/CorporateView.vue'
 import ReligiousView from '@/views/ReligiousView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,7 +39,12 @@ const router = createRouter({
       path: '/religieux',
       name: 'religious',
       component: ReligiousView
-    }
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => NotFoundView,
+    },
   ],
   scrollBehavior(to, _from, savedPosition) {
     // If there's a hash (like #gallery), scroll to that element
