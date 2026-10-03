@@ -125,7 +125,7 @@
       heading="Découvrez nos célébrations"
       description="Suivez-nous sur Instagram et Facebook pour voir des photos inspirantes de nos événements et restez informés de nos actualités."
       facebook-url="https://facebook.com/atlantisvenue-celebrations"
-      instagram-url="https://instagram.com/atlantisvenue"
+      instagram-url="https://instagram.com/atlantis_venue"
     />
 
   </ServiceDetail>
